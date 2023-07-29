@@ -121,11 +121,12 @@ div#right-col {
 #generatedCode {
   font-family: "Courier New", monospace;
   font-size: 14px;
-  background-color: #fff;
+  background-color: #292a2b;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   overflow: auto;
+  color: #1df9d8;
 }
 
 #copyButton {

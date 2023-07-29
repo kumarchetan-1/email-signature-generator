@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .flex-container.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    /* margin: 20px auto; */
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #signatureOutput {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 440px;
+  }
+  
+  /* Modern styles for the email signature table */
+  #signatureOutput table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #signatureOutput td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #signatureOutput td:last-child {
+    border-bottom: none;
+  }
+  
+  #signatureOutput b {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  #signatureOutput a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #signatureOutput a:hover {
+    text-decoration: underline;
+  }
+  
+  /* styles.css */
+.invalid-input {
+  border: 1px solid #ff0000; /* Add a red border to indicate invalid input */
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+div#right-col {
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 500px;
+}
+
+/* New CSS for the code container */
+.code-container {
+  display: none;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.code-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#generatedCode {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: auto;
+}
+
+#copyButton {
+  background-color: #0077B5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+#copyButton:hover {
+  background-color: #005e91;
+}
